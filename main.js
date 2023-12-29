@@ -14,7 +14,7 @@ var showCurrentTime = function (){
     var today= currentTime.getDay();
     //Set hours
     if (hours < 10){
-        hours='0'+hours;
+        hours = "0" + hours;
     }
     //Set minutes
     if (minutes<10){
